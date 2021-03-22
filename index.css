@@ -2,10 +2,11 @@
     margin: auto;
 }
 nav{
-    height: 38px;
-    background-color:rgb(4, 5, 66);
+    height: 50px;
+    background-color:rgb(173, 171, 171);
     /* border-bottom:2px solid black; */
     box-shadow: 2px 3px 5px rgb(104, 104, 104);
+    position: fixed;
 
 }
 ul{
@@ -16,10 +17,10 @@ ul{
     
 }
 li{
-    display: inline;
-    float: left;
-    /* border-right: 2px solid grey; */
-    padding: 2px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    
 }
 a{
     padding: 8px;
@@ -31,6 +32,14 @@ a{
 a:hover{
     
     text-decoration: underline;
-    background-color:rgb(2, 31, 21);
+    /* background-color:rgb(2, 31, 21); */
 
+}
+.gallery{
+    display:flex;
+    /* float: left; */
+    justify-content:space-around;
+}
+img{
+    border: 3px solid green;
 }
