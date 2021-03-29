@@ -1,7 +1,16 @@
+@media screen and (min-width:480px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
 
 * {
     margin: auto;
+    box-sizing: border-box;
     /* background-color: rgb(20, 19, 19); */
+    /* background-color: rgb(104, 101, 101); */
+
 }
 
 nav {
@@ -10,6 +19,8 @@ nav {
     /* border-bottom:2px solid black; */
     box-shadow: 2px 3px 5px rgb(160, 157, 157);
     position: relative;
+    overflow: hidden;
+    width: 100%;
 
 }
 
@@ -30,11 +41,12 @@ li {
     padding: 10px;
     justify-content: center;
     align-items: center;
-    
+    border-right: 2px white;
+
 
 }
 
-a {
+li>a {
     padding: 8px;
     display: block;
     text-decoration: none;
@@ -78,5 +90,98 @@ img {
     color: white;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
-   
+
+}
+
+hr {
+    width: 80%;
+
+}
+
+#tech {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    color: aqua;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#tech>p {
+    color: white;
+
+}
+
+#Register-card {
+    background-color: rgb(99, 97, 97);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+input,
+select {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5px;
+    padding: 10px;
+    border-bottom: 4px solid rgb(3, 161, 43);
+    border: none;
+
+}
+
+input:active {
+    border: 3px solid aqua;
+}
+
+#Register-card>h2 {
+    margin-top: 50px;
+    font-size: 40px;
+    text-decoration: underline;
+
+
+}
+
+form {
+    color: orange;
+    font-size: larger;
+}
+
+#recard {
+    margin: 50px 200px 100px;
+    border: 1px solid white;
+    box-shadow: 8px 8px 7px grey;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#recard>h2 {
+    margin-top: 10px;
+}
+
+#submit {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    color: orange;
+    font-size: larger;
+    font-weight: bolder;
+    justify-content: center;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+
+
 }
