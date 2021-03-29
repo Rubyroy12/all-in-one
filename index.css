@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 @media screen and (min-width:480px) {
     body {
-        background-color: black;
+        background-color: rgb(185, 183, 183);
         color: white;
+        font-family: 'Montserrat';
     }
 }
 
