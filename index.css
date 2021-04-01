@@ -22,7 +22,7 @@ nav {
     background-color: rgb(59, 58, 58);
     /* border-bottom:2px solid black; */
     box-shadow: 2px 3px 5px rgb(160, 157, 157);
-    position: relative;
+    position: fixed;
     overflow: hidden;
     width: 100%;
 
@@ -71,7 +71,7 @@ a:hover {
     justify-content: space-around;
 }
 
-img {
+.gallery>a>img {
     border: 3px solid green;
     border-radius: 50%;
 }
@@ -82,7 +82,7 @@ img {
 }
 
 #welcome {
-    height:30vh;
+    height: 40vh;
     color: white;
     display: flex;
     align-items: center;
@@ -94,6 +94,7 @@ img {
     color: white;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 35px;
 
 }
 
@@ -107,7 +108,7 @@ hr {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 h2 {
@@ -121,7 +122,8 @@ h2 {
     font-family: 'ubuntu';
 
 }
-#tech>p>a{
+
+#tech>p>a {
     color: aqua;
     text-decoration: none;
 }
@@ -136,8 +138,7 @@ h2 {
 
 }
 
-input,
-select {
+input, select {
     width: 350px;
     display: flex;
     align-items: center;
@@ -192,10 +193,18 @@ form {
     border: none;
     margin-bottom: 20px;
 }
-footer{
+
+footer {
     height: 10vh;
     background-color: rgb(23, 59, 49);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+}
+#tiles>img{
+    display: flex;
+    flex-direction:row;
+    
+
+    
 }
