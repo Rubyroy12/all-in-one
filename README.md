@@ -15,4 +15,4 @@
 - View [live](https://rubyroy12.github.io/all-in-one/)
 ## License
 - Copyright &#169 2021 Ibrahim Kiprotich.
-- This project is under the license of MIT(LICENSE.md).
+- This project is under the license of [MIT](LICENSE.md).
