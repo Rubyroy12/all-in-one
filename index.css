@@ -191,6 +191,11 @@ form {
     border-radius: 30px;
     border: none;
     margin-bottom: 20px;
-
-
+}
+footer{
+    height: 10vh;
+    background-color: rgb(23, 59, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
