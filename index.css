@@ -207,7 +207,7 @@ footer {
 #photos {
     margin: 50px;
     background-color: rgb(179, 182, 182);
-    display: flex;
+    display: flex;5
     flex-direction: column;
     border-spacing: 10px;
     
